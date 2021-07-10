@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+/* after click the search button */
+.search-item{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    
+}
+.food-items img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+#foodItems{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.food-items{
+    text-align: center;
+    cursor: pointer;
+}
+#search-box{
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+#search-btn{
+    border: none;
+    width: 110px;
+    background-color: #F06C4E;
+    border-radius: 0 6px 6px 0;
+    color: white;
+}
+.food-name{
+    font-size: 20px;
+}
+
+/* food details */
+#food-detail{
+    margin: auto;
+    width: 50%;
+}
+#food-detail img{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.fas{
+    color: tomato;
+}
